@@ -45,7 +45,7 @@ long find_chain_lengths(long num) {
 
 int main() {
 
-	int i, longest_chain_length_index = 2, chain_length, chain_lengths[1000000] = { 0, 1, 2 };
+	int i, longest_chain_length_index = 2, chain_length, chain_lengths[1000000] = { 0, 4, 2 };
 	long num;
 	
 	for(i=3; i<1000000; ++i) {
