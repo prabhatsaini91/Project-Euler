@@ -9,5 +9,5 @@ def prime_factors(n):
 			d+=1
 	return factors[-1]
 
-# print prime_factors(10)
-print prime_factors(600851475143)
+print prime_factors(10)
+print prime_factors(6008514751430

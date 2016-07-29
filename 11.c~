@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+	int i;
+
+	FILE *fp = fopen("grid","r");
+	char grid_nums[400];
+
+	fgets(grid_nums, 401, fp);
+	fclose(fp);
+
+	fgets(grid_nums);
+
+	return 0;
+
+}
