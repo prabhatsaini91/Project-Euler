@@ -10,4 +10,10 @@ def prime_factors(n):
 	return factors[-1]
 
 # print prime_factors(10)
-print prime_factors(600851475143)
+
+test_cases = int(raw_input(''))
+while test_cases :
+	num = int(raw_input(''))
+	print prime_factors(num)
+	test_cases-=1	
+

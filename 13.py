@@ -6,7 +6,7 @@ start = time.time()
 
 sum = 0
 
-file = open("q13","r")
+file = open("13 numbers","r")
 for line in file :
 	long_num = int(line)
 	sum = sum + long_num
